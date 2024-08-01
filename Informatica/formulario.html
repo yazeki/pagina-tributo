@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo_form.css">
+    <title>Formulario 📥</title>
+</head>
+
+<body>
+    <table align="center" border="1">
+        <tr>
+            <td bgcolor="black">
+                <a href="../Pagina principal/index.html">
+                    <font color="#00FFCC">
+                        Volver al Inicio
+                    </font>
+                </a>
+            </td>
+        </tr>
+    </table>
+    <font color="orange">
+        <center>
+            <h3>
+                Coloque aquí sus datos si desea <br /> recibir mas recursos
+                de su intéres 🤓
+            </h3>
+        </center>
+    </font>
+    <hr color="green" />
+    <br />
+
+    <form class="form" action="https://formspree.io/f/xldrblqg" method="POST">
+
+        <label for="name" id="name-label">
+         <strong>Nombre</strong>
+        </label>
+        <input id="name" type="text" name="name" required="required">
+        </input>
+        <br />
+        
+        <br />
+        <label for="email">
+         <strong>Email</strong>   
+        </label>
+        <input id="email" type="email" name="email" required="required">
+        </input>
+        <br />
+        <br />
+        <label for="number" id="number-label">
+           <strong>Edad</strong>
+
+        </label>
+        <input id="number" type="number" name="number" min="10" max="100" required="required">
+        </input>
+        <br />
+        <br />
+
+        <label for="s.o"><strong>Sistema operativo preferido:</strong></label>
+        <select name="s.o" id="dropdown">
+            <option value="macos">Mac Os</option>
+            <option value="windows">Windows</option>
+            <option value="linux">Linux</option>
+        </select>
+        <br />
+        
+        <label for="study_prefer" id="study_prefer"><br />
+            <strong>Preferencias de Estudio:</strong>
+        </label>
+<br/>
+        <input id="study_prefer" type="radio" id="documentacion" name="texto" value="documentacion">
+        <label for="study_prefer">Documentacion</label>
+        <input id="study_prefer" type="radio" id="documentacion" name="texto" value="documentacion">
+        <label for="study_prefer">Videos</label>
+        
+        <input id="study_prefer" type="radio" id="documentacion" name="texto" value="documentacion">
+        <label for="study_prefer">Retos</label>
+        
+        <input id="study_prefer" type="radio" id="documentacion" name="texto" value="documentacion">
+        <label for="study_prefer">Mentor</label>
+        
+        <br>
+        <label for="intereses"><br />
+           <strong>Intereses:</strong>
+        </label>
+        <br />
+        <input id="checkbox" type="checkbox" name="intereses" value="dev web">
+        <label for="checkbox"> Desarrollo Web </label>
+        
+        <input id="checkbox" type="checkbox" name="intereses" value="app movil">
+        <label for="checkbox"> Aplicación Movil </label>
+        
+        <input id="checkbox" type="checkbox" name="intereses" value="videogames">
+        <label for="checkbox"> Videojuegos </label>
+        
+        <input id="checkbox" type="checkbox" name="intereses" value="ciencia de datos">
+        <label for="checkbox"> Ciencia de datos </label>
+        
+        <input id="checkbox" type="checkbox" name="intereses" value="ciberseguridad">
+        <label for="checkbox"> Ciberseguridad </label>
+        
+        <input id="checkbox" type="checkbox" name="intereses" value="robotica">
+        <label for="checkbox"> Robótica </label>
+        
+        <br>
+        <br>
+
+        <label id="textarea"> <strong>Sugerencias: </strong>
+
+        </label>
+        <br />
+        <textarea id="textarea" name="comentario" rows="5" cols="40" placeholder="Escriba sus comentarios">
+
+        </textarea>
+        <br />
+        <br />
+
+        <input id="submit" type="submit" value="Enviar" class="form__submit" />
+        <br />
+        <br />
+
+    </form>
+
+</body>
+
+</html>

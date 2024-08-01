@@ -1,0 +1,188 @@
+body {
+    color: white;
+    background: url(../imagenes/universo1.jpg);
+}
+
+.cita {
+    font-style: italic;
+    position: relative;
+    display: inline-block;
+    color: mistyrose;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+
+}
+
+.cita:hover {
+    transform: translateX(180px);
+    transition: transform 0.5s ease-out;
+}
+
+#wel {
+    text-align: center;
+    color: aqua;
+    font-family: 'Rubik Iso', cursive;
+    font-size: 2.5em;
+    letter-spacing: normal;
+}
+
+#wel:hover {
+    letter-spacing: 0.3em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    /*definicion 2 columnas*/
+    grid-gap: 10px;
+    /* espacio*/
+
+}
+
+#wel:hover {
+    color: chartreuse;
+
+}
+
+.container img {
+    width: 340px;
+    /*centra*/
+    grid-column: 2 / 2;
+    /*posicion*/
+    justify-self: center;
+    /*alinear*/
+    margin-right: 10%;
+    border-radius: 1em;
+
+}
+
+.container nav {
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: left;
+    grid-column: 1 / 2;
+    /*segunda columna*/
+    margin-top: -190%;
+    margin-left: 10%;
+
+}
+
+.container nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a:hover {
+    color: orangered;
+    background-color: rgb(49, 49, 49);
+}
+
+
+
+#intro {
+    box-shadow: -10px 0 10px gray;
+    width: 75%;
+    position: relative;
+    left: 15%;
+    font-family: 'Rajdhani', sans-serif;
+    border-radius: 1em;
+
+}
+
+#intro h3 {
+    text-align: center;
+}
+
+h3:hover {
+    color: rgb(238, 8, 238);
+    background-color: rgba(0, 0, 0, 0.589);
+    border-radius: 1em;
+}
+
+h3::first-letter {
+    font-size: 2em;
+    font-family: 'Rubik Iso', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+
+.desarrollo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+
+}
+
+
+#medio img, #medio video {
+    border-radius: 1em;
+  }
+
+
+#medio img {
+
+    
+    width: 500px;
+    border-radius: 1em;
+}
+
+
+footer {
+    text-align: left;
+    margin-bottom: 2%;
+    font-family: 'Dancing Script', cursive;
+    color: orange;
+    font-size: 20px;
+
+}
+
+footer:hover {
+    text-align: right;
+}
+
+@media all and (max-width: 900px) {
+
+    .cita:hover {
+        transform: translateX(50px);
+        transition: transform 0.5s ease-out;
+    }
+
+    ul li a:hover {
+        color: rgb(0, 110, 255);
+        background-color: rgb(49, 49, 49);
+
+    }
+
+    body {
+        color: white;
+        background: url(../imagenes/universo1.jpg);
+
+    }
+
+    footer {
+        text-align: right;
+        margin-bottom: 2%;
+        font-family: 'Dancing Script', cursive;
+        color: orange;
+        font-size: 20px;
+
+    }
+
+    footer:hover {
+        text-align: left;
+    }
+
+
+
+
+
+}
