@@ -3,7 +3,6 @@
 :root {
     --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     --gradient1: linear-gradient(135deg, #667eea85 0%, #764ba28c 100%);
-    --url-img: url("https://i.imgur.com/1tq7Aru.png");
     --box-shadow: 2px 2px 5px rgba(0,0,0,.6);
     --width: 100%;
     --radius: 8px;
