@@ -75,7 +75,7 @@ body {
 }
 
 ul li a:hover {
-    color: orangered;
+    color: rgb(61, 17, 143);
     background-color: rgb(49, 49, 49);
 }
 
