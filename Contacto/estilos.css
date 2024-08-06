@@ -3,7 +3,7 @@
 :root {
     --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     --gradient1: linear-gradient(135deg, #667eea85 0%, #764ba28c 100%);
-    --url-img: url("https://i.imgur.com/1tq7Aru.png");
+    /* --url-img: url("https://i.imgur.com/1tq7Aru.png"); */
     --box-shadow: 2px 2px 5px rgba(0,0,0,.6);
     --width: 100%;
     --radius: 8px;
@@ -18,7 +18,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     min-height: 100vh;
-    background-image: var(--gradient1), var(--url-img);
+    background-image: url('https://i.imgur.com/1tq7Aru.png');
     background-size: cover;
     background-position: center;
     transition: background 0.5s ease, color 0.5s ease;
