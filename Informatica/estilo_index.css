@@ -2,6 +2,13 @@ a:visited {
     color:  rgb(145, 96, 5);
 }
 
+body {
+    min-height: 100vh;
+    background: url(../imagenes/informatica.png);
+    background-size :cover;
+    background-position: center;
+}
+
 
 /* @media (prefers-color-scheme: dark) {
     body {

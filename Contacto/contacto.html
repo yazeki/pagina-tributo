@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto </title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="toggle-container">
+        <label class="switch">
+            <input type="checkbox" id="modeToggle">
+            <span class="slider"></span>
+        </label>
+    </div>
+    <form class="form" action="https://formspree.io/f/xldrblqg" method="POST">
+        <h2 class="form__title">Formulario de contacto</h2>
+        <input type="text" name="nombre" id="" placeholder="Nombre: ">
+        <input type="email" name="email" id="" placeholder="Email: ">
+        <input type="movil" name="movil" id="" placeholder="Móvil: ">
+        <input type="asunto" name="asunto" id="" placeholder="Asunto: ">
+        <textarea name="mensaje" id=""  placeholder="Deja aquí tu mensaje... "></textarea>
+        <input type="submit" value="Enviar" class="form__submit">
+    </form>
+    <script src="javascript.js"></script>
+</body>
+</html>
