@@ -3,10 +3,9 @@ a:visited {
 }
 
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
     body {
         background: url(../imagenes/informatica.png) !important;
         background-size: cover !important;
         background-position: center;
-    }
-}
+    } */
