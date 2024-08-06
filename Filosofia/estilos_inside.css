@@ -1,0 +1,13 @@
+
+@media all and (max-width: 900px) {
+    .part1{
+        width: 22%;
+        text-align: center;
+    }
+
+    table{
+        width: 90%;
+        font-size: 0.9em;
+    }
+
+}

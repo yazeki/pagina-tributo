@@ -1,6 +1,7 @@
 body {
     color: black;
     background: url(../imagenes/tierra.jpg);
+    background-color: black;
 }
 
 .cita {
@@ -110,7 +111,7 @@ a {
 }
 
 a:visited {
-    color: white;
+    color:  rgb(145, 96, 5);
 }
 
 
@@ -140,14 +141,11 @@ footer {
     text-align: left;
     margin-bottom: 2%;
     font-family: 'Dancing Script', cursive;
-    color: orange;
+    color: rgb(131, 88, 9);
     font-size: 20px;
 
 }
 
-footer:hover {
-    text-align: right;
-}
 
 @media all and (max-width: 900px) {
 
@@ -165,24 +163,16 @@ footer:hover {
     body {
         color: black;
         background: url(../imagenes/tierra.jpg);
+        background-color: black;
 
     }
 
-    footer {
-        text-align: right;
+    footer{
+        text-align: lef;
         margin-bottom: 2%;
         font-family: 'Dancing Script', cursive;
-        color: orange;
+        color: rgb(5, 100, 10);
         font-size: 20px;
 
     }
-
-    footer:hover {
-        text-align: left;
     }
-
-
-
-
-
-}
