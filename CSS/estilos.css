@@ -1,6 +1,6 @@
 body {
-    color: white;
-    background: url(../imagenes/universo1.jpg);
+    color: black;
+    background: url(../imagenes/tierra.jpg);
 }
 
 .cita {
@@ -163,8 +163,8 @@ footer:hover {
     }
 
     body {
-        color: white;
-        background: url(../imagenes/universo1.jpg);
+        color: black;
+        background: url(../imagenes/tierra.jpg);
 
     }
 

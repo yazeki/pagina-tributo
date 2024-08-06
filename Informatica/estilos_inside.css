@@ -1,0 +1,10 @@
+body {
+    background: url(../imagenes/13399179.jpg);
+}
+
+@media all and (max-width: 1200px) {
+    body {
+        background: url(../imagenes/13399179.jpg);
+    }
+
+}
