@@ -1,8 +1,12 @@
+a:visited {
+    color:  rgb(145, 96, 5);
+}
+
 
 @media (prefers-color-scheme: dark) {
     body {
         background: url(../imagenes/informatica.png) !important;
-        background-size: cover;
+        background-size: cover !important;
         background-position: center;
     }
 }
